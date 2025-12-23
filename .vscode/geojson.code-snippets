@@ -1,0 +1,23 @@
+{
+  "GeoJSON Point Feature": {
+    "scope": "json",
+    "prefix": [
+      "geojson",
+      "point",
+      "feature"
+    ],
+    "body": [
+      "{",
+      "  \"geometry\": {",
+      "    \"coordinates\": [",
+      "      $1",
+      "    ],",
+      "    \"type\": \"Point\"",
+      "  },",
+      "  \"type\": \"Feature\",",
+      "  \"properties\": {$0}",
+      "}"
+    ],
+    "description": "Crear un GeoJSON Point Feature"
+  }
+}
